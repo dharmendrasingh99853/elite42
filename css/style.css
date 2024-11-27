@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  background-color: gray;
+}
+ul li {
+  padding: 10px;
+  text-transform: capitalize;
+}
+ul li a {
+  color: #fff;
+}
+ul li a:hover {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

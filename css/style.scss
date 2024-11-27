@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    background-color: gray;
+
+    li{
+        padding:10px;
+        text-transform: capitalize;
+
+        a{
+            color:#fff;
+            &:hover{
+                color:red;
+            }
+        }
+
+
+    }
+}
