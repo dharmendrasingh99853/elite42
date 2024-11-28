@@ -7,8 +7,8 @@ ul{
 }
 ul.parent{
     display:flex;
-    justify-content:center;
-    padding:10px;
+    justify-content:flex-end;
+    padding:20px;
     background-color:grey;
 
 li{
@@ -37,18 +37,14 @@ li{
     }
 }
 }   
-
-// .header{
-//     background-image:url("    ")
-// }
-
-
 .content{
 
     .products{
 
         flex-wrap: wrap;
         display:flex;
+        padding:100px;
+        justify-content: space-between;
 
 
         li{
