@@ -1,6 +1,6 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -10,7 +10,7 @@ ul {
 ul.parent {
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  padding: 10px;
   background-color: grey;
 }
 ul.parent li {
@@ -28,18 +28,18 @@ ul.parent li a:hover {
 }
 ul.parent li ul {
   position: absolute;
-  display: none;
-  background-color: grey;
+  display: none; /*submenu not to be displayed*/
+  background-color: white; /*submenu's BG color*/
   width: 150px;
   top: 24px;
 }
 ul.parent li:hover ul {
-  display: block;
+  display: block; /*To display submenu*/
 }
 
 .content .products {
-  flex-wrap: wrap;
   display: flex;
+  flex-wrap: wrap;
   padding: 100px;
   justify-content: space-between;
 }
@@ -50,13 +50,11 @@ ul.parent li:hover ul {
   position: relative;
 }
 .content .products li button {
-  color: white;
-  background-color: green;
   position: absolute;
-  width: 100%;
-  height: 20px;
   bottom: 0;
+  width: 100%;
   border: none;
+  background-color: green;
 }
 .content .products li button:hover {
   color: aqua;
@@ -67,5 +65,4 @@ ul.parent li:hover ul {
   width: 180px;
   position: absolute;
   bottom: 20px;
-  left: 20px;
 }/*# sourceMappingURL=style.css.map */
