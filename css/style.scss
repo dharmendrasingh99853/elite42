@@ -10,65 +10,66 @@ ul.parent{
     justify-content:flex-end;
     padding:10px;
     background-color:grey;
-li{
+
+    li{
     
 
-    position:relative;
-    a{
-        padding:5px;
-        text-transform:uppercase;
-        text-decoration:none;
-        font-size:25px;
-        color: #fff;
-        &:hover{
-            color:red;
-        }
-        }
-    ul{
-        position:absolute;
-        display:none; /*submenu not to be displayed*/
-        background-color: gray; /*submenu's BG color*/
-        width: 150px;
-        top: 24px;
-    }
-    &:hover{
+        position:relative;
+        a{
+            padding:5px;
+            text-transform:uppercase;
+            text-decoration:none;
+            font-size:25px;
+            color: #fff;
+            &:hover{
+                color:red;
+            }
+            }
         ul{
-            display: block; /*To display submenu*/
+            position:absolute;
+            display:none; /*submenu not to be displayed*/
+            background-color: gray; /*submenu's BG color*/
+            width: 150px;
+            top: 24px;
+        }
+        &:hover{
+            ul{
+                display: block; /*To display submenu*/
+            }
         }
     }
-}
+
 }
 
 .content{
     .products{
         display: flex;
-            flex-wrap: wrap;
-            padding:100px;
-            justify-content: space-between;
+        flex-wrap:wrap;
+        padding:100px;
+        justify-content: space-around;
+
         li{
-            
-            width: 200px;
-            height: 200px;
             background-color: #f0f0f0;
-            position:relative;
+            position: relative;
+            width:200px;
+            height:200px;
+
             button{
                 position:absolute;
-                bottom: 0;
-                width: 100%;
-                border: none;
-                background-color:green ;
+                bottom:0;
+                width:100%;
+                background-color: green;
+                color:white;
                 &:hover{
-                    color: aqua;
+                    color:black;
                     cursor: pointer;
                 }
 
             }
             img{
-                height:160px;
                 width:180px;
+                height:160px;
                 position:absolute;
-                bottom:20px;
-
             }
         }
     }

@@ -29,7 +29,7 @@ ul.parent li a:hover {
 ul.parent li ul {
   position: absolute;
   display: none; /*submenu not to be displayed*/
-  background-color: white; /*submenu's BG color*/
+  background-color: gray; /*submenu's BG color*/
   width: 150px;
   top: 24px;
 }
@@ -41,28 +41,27 @@ ul.parent li:hover ul {
   display: flex;
   flex-wrap: wrap;
   padding: 100px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .content .products li {
-  width: 200px;
-  height: 200px;
   background-color: #f0f0f0;
   position: relative;
+  width: 200px;
+  height: 200px;
 }
 .content .products li button {
   position: absolute;
   bottom: 0;
   width: 100%;
-  border: none;
   background-color: green;
+  color: white;
 }
 .content .products li button:hover {
-  color: aqua;
+  color: black;
   cursor: pointer;
 }
 .content .products li img {
-  height: 160px;
   width: 180px;
+  height: 160px;
   position: absolute;
-  bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
