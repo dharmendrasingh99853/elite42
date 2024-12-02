@@ -2,75 +2,89 @@
     margin:0;
     padding:0;
 }
+
 ul{
     list-style:none;
 }
+
 ul.parent{
-    display:flex;
-    justify-content:flex-end;
-    padding:10px;
-    background-color:grey;
+    display: flex;
+    justify-content: flex-end;
+    background-color: gray;
+    padding:45px;
 
     li{
-    
-
         position:relative;
+        
         a{
-            padding:5px;
-            text-transform:uppercase;
-            text-decoration:none;
+            background-color: black;
+            color:white;
+            text-decoration: none;
+            text-transform: uppercase;
             font-size:25px;
-            color: #fff;
+            padding:5px;
             &:hover{
                 color:red;
             }
-            }
+
+
+        }
         ul{
             position:absolute;
-            display:none; /*submenu not to be displayed*/
-            background-color: gray; /*submenu's BG color*/
-            width: 150px;
-            top: 24px;
+            display: none;
+            background-color: gray;
+            width:90px;
+            top:50px;
         }
         &:hover{
             ul{
-                display: block; /*To display submenu*/
+                display: block;
             }
         }
-    }
 
+
+    }
+}
+
+.header{
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:1800px;
+    height:400px;   
 }
 
 .content{
     .products{
+        justify-content: space-between;
         display: flex;
-        flex-wrap:wrap;
-        padding:100px;
-        justify-content: space-around;
+        flex-wrap: wrap;
+        padding:20px;
 
         li{
-            background-color: #f0f0f0;
-            position: relative;
+            position:relative;
             width:200px;
-            height:200px;
+            height: 200px;
 
             button{
                 position:absolute;
-                bottom:0;
-                width:100%;
-                background-color: green;
                 color:white;
+                background-color: green;
+                width:100%;
+                bottom:0;
                 &:hover{
-                    color:black;
-                    cursor: pointer;
+                    color:red;
+                    cursor:pointer;
                 }
 
             }
             img{
-                width:180px;
-                height:160px;
                 position:absolute;
+                width:180px;
+                height: 160px;
+                bottom:20px
             }
+
         }
     }
 }
