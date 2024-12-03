@@ -18,7 +18,8 @@ body {
   margin-bottom: 20px;
 }
 .container input[type=email],
-.container input[type=password] {
+.container input[type=password],
+.container input[type=text] {
   width: 100%;
   padding: 12px;
   margin-bottom: 15px;
@@ -27,7 +28,7 @@ body {
   box-sizing: border-box;
 }
 .container input[type=submit] {
-  background-color: #4CAF50;
+  background-color: blue;
   color: white;
   padding: 12px 20px;
   margin-top: 10px;
@@ -36,20 +37,12 @@ body {
   cursor: pointer;
 }
 .container input[type=submit]:hover {
-  background-color: #3d8b40;
-}
-.container .checkbox {
-  margin-bottom: 15px;
-}
-.container .checkbox label {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 5px;
+  background-color: #0000cc;
 }
 .container .forgot-password {
   margin-top: 10px;
 }
 .container .forgot-password a {
-  color: #4CAF50;
+  color: blue;
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

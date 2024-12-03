@@ -1,4 +1,4 @@
-$primary-color: #4CAF50;
+$primary-color: blue;
 $background-color: #f4f4f4;
 $container-bg: #fff;
 $border-color: #ddd;
@@ -24,7 +24,8 @@ body {
     }
 
     input[type="email"],
-    input[type="password"] {
+    input[type="password"] ,
+    input[type="text"]{
         width: 100%;
         padding: 12px;
         margin-bottom: 15px;
@@ -47,15 +48,7 @@ body {
         }
     }
 
-    .checkbox {
-        margin-bottom: 15px;
 
-        label {
-            display: inline-block;
-            vertical-align: middle;
-            margin-left: 5px;
-        }
-    }
 
     .forgot-password {
         margin-top: 10px;
