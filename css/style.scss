@@ -1,61 +1,110 @@
-$primary-color: blue;
-$background-color: #f4f4f4;
-$container-bg: #fff;
-$border-color: #ddd;
-
-body {
-    background-color: $background-color;
-    font-family: sans-serif;
+.body{
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    font-family: sans-serif;
+
+
+    .container{
+        background-color: grey;
+        padding: 30px;
+
+        .h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input[type="email"],
+        input[type="password"],
+        input[type="text"]{
+            border-radius: 5px;
+            padding:5px;
+            margin-bottom: 10px;
+            border:1px solid black;
+        }
+
+        .forgot-password{
+
+            a{
+                color:red;
+                text-decoration:none;
+                cursor:pointer;
+            }
+        }
+
+        input[type="submit"]{
+            color:white;
+            background-color: green;
+            border-radius: 50px;
+            &:hover{
+                color:red;
+            }
+        }
+
+    }
+
 }
 
-.container {
-    background-color: $container-bg;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-
-    h2 {
-        margin-bottom: 20px;
-    }
-
-    input[type="email"],
-    input[type="password"] ,
-    input[type="text"]{
-        width: 100%;
-        padding: 12px;
-        margin-bottom: 15px;
-        border: 1px solid $border-color;
-        border-radius: 4px;
-        box-sizing: border-box;
-    }
-
-    input[type="submit"] {
-        background-color: $primary-color;
-        color: white;
-        padding: 12px 20px;
-        margin-top: 10px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-
-        &:hover {
-            background-color: darken($primary-color, 10%);
-        }
-    }
 
 
+// $primary-color: blue;
+// $background-color: #f4f4f4;
+// $container-bg: #fff;
+// $border-color: #ddd;
 
-    .forgot-password {
-        margin-top: 10px;
+// body {
+//     background-color: $background-color;
+//     font-family: sans-serif;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     min-height: 100vh;
+// }
 
-        a {
-            color: $primary-color;
-            text-decoration: none;
-        }
-    }
-}
+// .container {
+//     background-color: $container-bg;
+//     padding: 30px;
+//     border-radius: 5px;
+//     box-shadow:gray;
+//     text-align:center;
+
+//     h2 {
+//         margin-bottom: 20px;
+//     }
+
+//     input[type="email"],
+//     input[type="password"] ,
+//     input[type="text"]{
+//         width: 100%;
+//         padding: 12px;
+//         margin-bottom: 15px;
+//         border: 1px solid $border-color;
+//         border-radius: 4px;
+//     }
+
+//     input[type="submit"] {
+//         background-color: $primary-color;
+//         color: white;
+//         padding: 12px 20px;
+//         margin-top: 10px;
+//         border: none;
+//         border-radius: 4px;
+//         cursor: pointer;
+
+//         &:hover {
+//             background-color: darken($primary-color, 10%);
+//         }
+//     }
+
+
+
+//     .forgot-password {
+//         margin-top: 10px;
+
+//         a {
+//             color: $primary-color;
+//             text-decoration: none;
+//         }
+//     }
+// }
