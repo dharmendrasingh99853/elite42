@@ -1,1 +1,39 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  justify-content: space-around;
+}
+ul.products li {
+  position: relative;
+  width: 150px;
+  height: 200px;
+}
+ul.products li button {
+  position: absolute;
+  color: black;
+  background-color: white;
+  width: 100%;
+  bottom: 0;
+}
+ul.products li button:hover {
+  color: black;
+  background-color: green;
+  cursor: pointer;
+}
+ul.products li button img {
+  position: absolute;
+  width: 200px;
+  height: 160px;
+  bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
