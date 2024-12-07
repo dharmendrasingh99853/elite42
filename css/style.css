@@ -7,31 +7,31 @@ ul {
   list-style: none;
 }
 
-ul.products {
+.content .products {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   padding: 30px;
   justify-content: space-around;
 }
-ul.products li {
+.content .products li {
   position: relative;
-  width: 150px;
+  width: 200px;
   height: 200px;
 }
-ul.products li button {
+.content .products li button {
   position: absolute;
   color: black;
   background-color: white;
   width: 100%;
   bottom: 0;
 }
-ul.products li button:hover {
+.content .products li button:hover {
   color: black;
   background-color: green;
   cursor: pointer;
 }
-ul.products li button img {
+.content .products li img {
   position: absolute;
   width: 200px;
   height: 160px;
