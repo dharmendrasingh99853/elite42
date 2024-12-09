@@ -5,61 +5,65 @@
         
     </head>
     <body>
-        <!-- Subscription Form -->
-        <section id="subscription-form">
-            <input type="email" placeholder="Your Mail" aria-label="Your Mail">
-            <button type="button">Subscribe</button>
+      <header class="newsletter">
+        <div class="container">
+          <span>Subscribe to Newsletter:</span>
+          <input type="email" placeholder="Your Mail">
+          <button>Subscribe</button>
+        </div>
+      </header>
+    
+      <main>
+        
+        <section class="collection">
+          <h2>From Our Collection</h2>
+          <p>"From our collection, you can discover a diverse array of items, carefully curated to showcase a range of styles, eras, and origins</p>
+          <div class="filters">
+            <button>Winter</button>
+            <button>Spring</button>
+            <button>Summer</button>
+            <button>Fall</button>
+          </div>
+          <div class="products">
+            <div class="product">
+              <img src="images/hm1.avif" alt="Men Jacket">
+              <h3> Sweatshirt</h3>
+              <p>₹799</p>
+            </div>
+            <div class="product">
+              <img src="images/hm2.avif" alt="Men Jacket">
+              <h3>Winter Men Jacket</h3>
+              <p>₹999</p>
+            </div>
+            <div class="product">
+              <img src="images/hm3.avif" alt="Men Jacket">
+              <h3>Winter Sweatshirt</h3>
+              <p>₹799</p>
+            </div>
+            <div class="product">
+              <img src="images/hm4.avif" alt="Men Jacket">
+              <h3>Hoodie</h3>
+              <p>₹999</p>
+            </div>
+          </div>
+          <button class="load-more">Show Me More</button>
         </section>
-        
-          <!-- Collection Section -->
-          <section id="collection">
-            <h2>From Our Collection</h2>
-            <div id="filters">
-              <button type="button">Winter</button>
-              <button type="button">Spring</button>
-              <button type="button">Summer</button>
-              <button type="button">Fall</button>
-            </div>
-            <div class="product-grid">
-              <div class="product">
-                <img src="/images/hm1.avif" alt="Paris Jacket">
-                <p>PARIS JACKET</p>
-                <p>$89.99</p>
-              </div>
-              <div class="product">
-                <img src="images/hm2.avif" alt="Paris Jacket">
-                <p>JACKET</p>
-                <p>$89.99</p>
-              </div>
-              <div class="product">
-                <img src="/images/hm3.avif" alt="Paris Jacket">
-                <p>PARIS JACKET</p>
-                <p>$89.99</p>
-              </div>
-              <div class="product">
-                <img src="/images/hm4.avif" alt="Paris Jacket">
-                <p>PARIS JACKET</p>
-                <p>$89.99</p>
-              </div>
-              <div class="product">
-                <img src="/images/hm5.avif" alt="Paris Jacket">
-                <p>PARIS JACKET</p>
-                <p>$89.99</p>
-              </div>
-              <!-- Repeat for the other products -->
-            </div>
-          </section>
-        
-          <!-- Story Section -->
-          <section id="story">
-            <img src="/images/office.jpeg" alt="Office">
-            <div class="story-content">
-              <h2>Story Behind</h2>
-              <p>In a world where fashion moves fast, we believe in timeless style and authentic self-expression. Our journey started with a simple goal: to create clothing that blends quality, comfort, and individuality.
+    
+        <section class="story">
+          <div class="story-image">
+            <img src="images/office.jpeg" alt="Office">
+          </div>
+          <div class="story-text">
+            <h2>Story Behind</h2>
+            <p class="brand"></p>
+            <p>
+              Shopping is an activity in which a customer browses the available goods or services presented by one or more retailers with the potential intent to purchase a suitable selection of them.
+            </p>
+            <button>Contact Us</button>
+          </div>
+        </section>
+      </main>
+    
 
-                Inspired by [your inspiration, e.g., "street culture and sustainable living"], we design pieces that let you express who you are, without compromise.</p>
-              <button type="button">Contact Us</button>
-            </div>
-          </section>
     </body>
 </html>
