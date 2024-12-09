@@ -116,7 +116,8 @@ main {
 
   .story-image img {
     max-width: 800px;
-    border-radius: 4px;
+    max-height: 800px;
+    border-radius: 2px;
   }
 
   .story-text {
@@ -221,7 +222,9 @@ main {
     flex-direction: row;
 
     .story-image img {
-      max-width: 700px;
+      max-width:800px;
+      max-height:800px;
+      
     }
 
     .story-text {
